@@ -4,7 +4,7 @@ sequenceDiagram
   participant server
 
   browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
-  Note right of the browser: form data: note={input}
+  Note right of browser: form data: note={input}
   activate server
   server-->>browser: Redirect https://studies.cs.helsinki.fi/exampleapp/notes
   deactivate server
