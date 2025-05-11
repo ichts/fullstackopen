@@ -1,7 +1,7 @@
 ```mermaid
 sequenceDiagram
-  participent browser
-  participent server
+  participant browser
+  participant server
 
   browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note with form data note={input}
   activate server
